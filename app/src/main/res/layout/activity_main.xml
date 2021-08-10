@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/printText"
+        style="@style/Greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Hello! VED PRAKASH"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/irrigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detection"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeMaxTextSize="60sp"
+        android:autoSizeMinTextSize="35sp"
+        android:background="@color/deep_purple_100"
+        android:padding="10dp"
+        android:shadowDx="-1"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Irrigation"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weatherForecasting"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeMaxTextSize="60sp"
+        android:autoSizeMinTextSize="35sp"
+        android:background="@color/deep_purple_100"
+        android:padding="10dp"
+        android:shadowDx="-1"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Detection"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weatherForecasting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yourField"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeMaxTextSize="60sp"
+        android:autoSizeMinTextSize="35sp"
+        android:background="@color/deep_purple_100"
+        android:padding="10dp"
+        android:shadowDx="-1"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Weather"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yourField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/printText"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeMaxTextSize="60sp"
+        android:autoSizeMinTextSize="35sp"
+        android:background="@color/deep_purple_100"
+        android:padding="10dp"
+        android:shadowDx="-1"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:text="Field Details"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

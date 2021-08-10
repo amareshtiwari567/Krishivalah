@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Greeting">
+        <!--Color Of text. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/deep_purple_100</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/autoSizeMaxTextSize</item>
+        <item name="android:autoSizeMinTextSize">@dimen/autoSizeMinTextSize</item>
+    </style>
+</resources>
